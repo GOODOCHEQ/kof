@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> <!-- Подключение шрифта -->
+</head>
+<body>
+    <header>
+      <div class="top-header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Золотой Жук Логотип" class="logo">
+            </a>
+            <div class="logo-text">
+                <h1>Золотой Жук</h1>
+                <p>Магазин китайского чая</p>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-item">
+                <div class="contact-text">
+                    <a href="tel:88002002685" class="contact-link">8-800-200-26-85</a>
+                    <a href="#" class="sub-link">Заказать звонок</a>
+                </div>
+                <div class="icon-circle">
+                    <img src="images/tel.png" alt="Телефон" class="icon">
+                </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-text">
+                  <span class="cart-total">0 ₽</span>
+                  <a href="cart.html" class="sub-link">Оформить заказ</a>
+              </div>
+              <div class="icon-circle">
+                  <img src="images/cart.png" alt="Корзина" class="icon">
+                  <span class="cart-count">0</span>
+              </div>
+          </div>
+            </div>
+        </div>
+      </div>
+      <nav class="bottom-header">
+        <a href="1.html" class="menu-item">КАТАЛОГ</a>
+        <a href="oplataidostavka.html">ОПЛАТА И ДОСТАВКА</a>
+        <a href="oklybe.html">О НАШЕМ КЛУБЕ</a>
+        <a href="blog.html">БЛОГ</a>
+        <a href="cont.html">КОНТАКТЫ</a>
+    </nav>
+    </header>
+    <main class="main-content">
+      <aside class="sidebar">
+        <ul>
+            <li><a href="1.html" class="category-button"><img src="images/1.png" alt="Черный пуер">Черный пуер</a></li>
+            <li><a href="2.html" class="category-button"><img src="images/2.jpg" alt="Зеленый пуер">Зеленый пуер</a></li>
+            <li><a href="3.html" class="category-button"><img src="images/3.png" alt="Красный/Черный">Красный/Черный</a></li>
+            <li><a href="4.html" class="category-button"><img src="images/4.png" alt="Темный улун">Темный улун</a></li>
+            <li><a href="5.html" class="category-button"><img src="images/5.jpeg" alt="Светлый улун">Светлый улун</a></li>
+            <li><a href="6.html" class="category-button"><img src="images/6.png" alt="Габа">Габа</a></li>
+            <li><a href="7.html" class="category-button"><img src="images/7.png" alt="Зеленый">Зеленый</a></li>
+            <li><a href="8.html" class="category-button"><img src="images/8.png" alt="Белый чай">Белый чай</a></li>
+        </ul>
+      </aside>
+      <div class="content-container">
+            <div class="contact-details">
+              <h2>Контакты</h2>
+                <h3>Чайный клуб "Золотой Жук"</h3>
+                <p>394036 Воронеж, ул. Феоктистова, 1А</p>
+                <p>Для сотрудничества отправляйте заявку на: <a href="mailto:vrnzolotoyzhuk@gmail.com">vrnzolotoyzhuk@gmail.com</a></p>
+                <p>Тел.: <a href="tel:+74732068585">(473) 206-85-85</a> и <a href="tel:88002002685">8-800-200-26-85</a></p>
+                <p>На телефонные звонки отвечаем:</p>
+                <p>оффлайн (магазин на Феоктистова) с 15 до 24</p>
+                <p>Поддержка интернет магазина (телефон и вацап +79529564642) пн-пт с 13 до 18</p>
+            </div>
+
+
+        <section class="contact-details">
+            <h2>Реквизиты</h2>
+            <p>ИП Пасечный Михаил Анатольевич</p>
+            <p>ИНН 366509724765 / ОГРНИП 316366800142435</p>
+            <p>Тел.: <a href="tel:+74732068585">(473) 206-85-85</a>, <a href="tel:+74732068558">(473) 206-85-58</a></p>
+        </section>
+
+        <section class="contact-map">
+            <h2>Как добраться</h2>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af1e431b39a3f29e943e3c0ae3951f88205e3401b4a847f7dcbfd8aa9ef7aafe4&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </section>
+      </div>
+    </main>
+
+    <section class="newsletter-section">
+      <div class="newsletter-container">
+          <div class="newsletter-right">
+              <p class="newsletter-title">Подпишитесь и получите промокод с лучшей скидкой</p>
+              <p class="newsletter-subtitle">Рассылки со спецпредложениями проводятся в среднем раз в месяц</p>
+              <div class="newsletter-form">
+                  <input type="email" placeholder="Введите вашу эл.почту" class="newsletter-input">
+                  <button type="button" class="newsletter-button">
+                      <img src="images/send-icon.png" alt="Отправить" class="send-icon">
+                  </button>
+              </div>
+              <div class="newsletter-consent">
+                  <input type="checkbox" id="consent-checkbox" class="consent-checkbox">
+                  <label for="consent-checkbox">Я согласен(а) <a href="#">с политикой обработки персональных данных</a></label>
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img src="images/logo.png" alt="Золотой Жук Логотип">
+          <div>
+            <p>Золотой Жук</p>
+            <a href="tel:88002002685" class="footer-phone">8-800-200-26-85</a>
+          </div>
+        </div>
+        <div class="footer-center">
+          <a href="1.html">Каталог</a>
+          <a href="oplataidostavka.html">Оплата и доставка</a>
+          <a href="oklybe.html">О нашем клубе</a>
+          <a href="cont.html">Контакты</a>
+        </div>
+        <div class="footer-right">
+          <a href="#"><img src="images/vk.jpg" alt="VK"></a>
+          <a href="#"><img src="images/yt.jpg" alt="YouTube"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Золотой Жук. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

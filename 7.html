@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зеленый</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> <!-- Подключение шрифта -->
+</head>
+<body>
+    <header>
+        <!-- Ваш хедер -->
+        <div class="top-header">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Золотой Жук Логотип" class="logo">
+                </a>
+                <div class="logo-text">
+                    <h1>Золотой Жук</h1>
+                    <p>Магазин китайского чая</p>
+                </div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-item">
+                    <div class="contact-text">
+                        <a href="tel:88002002685" class="contact-link">8-800-200-26-85</a>
+                        <a href="#" class="sub-link">Заказать звонок</a>
+                    </div>
+                    <div class="icon-circle">
+                        <img src="images/tel.png" alt="Телефон" class="icon">
+                    </div>
+                </div>
+                <div class="contact-item">
+                  <div class="contact-text">
+                      <span class="cart-total">0 ₽</span>
+                      <a href="cart.html" class="sub-link">Оформить заказ</a>
+                  </div>
+                  <div class="icon-circle">
+                      <img src="images/cart.png" alt="Корзина" class="icon">
+                      <span class="cart-count">0</span>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <nav class="bottom-header">
+          <a href="index.html" class="menu-item">НА ГЛАВНУЮ</a>
+          <a href="oplataidostavka.html">ОПЛАТА И ДОСТАВКА</a>
+          <a href="oklybe.html">О НАШЕМ КЛУБЕ</a>
+          <a href="blog.html">БЛОГ</a>
+          <a href="cont.html">КОНТАКТЫ</a>
+      </nav>
+
+    </header>
+
+    <main>
+        <section class="category-page">
+            <aside class="sidebar">
+                <ul>
+                    <li><a href="1.html" class="category-button"><img src="images/1.png" alt="Черный пуер">Черный пуер</a></li>
+                    <li><a href="2.html" class="category-button"><img src="images/2.jpg" alt="Зеленый пуер">Зеленый пуер</a></li>
+                    <li><a href="3.html" class="category-button"><img src="images/3.png" alt="Красный/Черный">Красный/Черный</a></li>
+                    <li><a href="4.html" class="category-button"><img src="images/4.png" alt="Темный улун">Темный улун</a></li>
+                    <li><a href="5.html" class="category-button"><img src="images/5.jpeg" alt="Светлый улун">Светлый улун</a></li>
+                    <li><a href="6.html" class="category-button"><img src="images/6.png" alt="Габа">Габа</a></li>
+                    <li><a href="7.html" class="category-button active"><img src="images/7.png" alt="Зеленый">Зеленый</a></li>
+                    <li><a href="8.html" class="category-button"><img src="images/8.png" alt="Белый чай">Белый чай</a></li>
+                </ul>
+            </aside>
+            <div class="product-grid">
+                <div class="product-item">
+                    <img src="images/7.png" alt="Товар 1">
+                    <p class="product-name">Лунцзинь D11</p>
+                    <p class="product-price">5481,00 ₽</p>
+                    <button class="add-to-cart" data-image="images/7.png">В корзину</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/7.png" alt="Товар 2">
+                    <p class="product-name">Билочунь Дунтин D13</p>
+                    <p class="product-price">5980,80 ₽</p>
+                    <button class="add-to-cart" data-image="images/7.png">В корзину</button>
+                </div>
+                <div class="product-item">
+                    <img src="images/7.png" alt="Товар 3">
+                    <p class="product-name">Тайпин Хоукуй D14</p>
+                    <p class="product-price">9137,80 ₽</p>
+                    <button class="add-to-cart" data-image="images/7.png">В корзину</button>
+                </div>
+                <div class="product-item">
+                  <img src="images/7.png" alt="Товар 4">
+                  <p class="product-name">Аньцзи Байча D15</p>
+                  <p class="product-price">4869,20 ₽</p>
+                  <button class="add-to-cart" data-image="images/7.png">В корзину</button>
+              </div>
+              <div class="product-item">
+                  <img src="images/7.png" alt="Товар 5">
+                  <p class="product-name">Чжуецин DS17</p>
+                  <p class="product-price">7177,80 ₽</p>
+                  <button class="add-to-cart" data-image="images/7.png">В корзину</button>
+              </div>
+            </div>
+        </section>
+
+        <!-- Ваш блок для ввода почты -->
+        <section class="newsletter-section">
+            <div class="newsletter-container">
+                <div class="newsletter-right">
+                    <p class="newsletter-title">Подпишитесь и получите промокод с лучшей скидкой</p>
+                    <p class="newsletter-subtitle">Рассылки со спецпредложениями проводятся в среднем раз в месяц</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Введите вашу эл.почту" class="newsletter-input">
+                        <button type="button" class="newsletter-button">
+                            <img src="images/send-icon.png" alt="Отправить" class="send-icon">
+                        </button>
+                    </div>
+                    <div class="newsletter-consent">
+                        <input type="checkbox" id="consent-checkbox" class="consent-checkbox">
+                        <label for="consent-checkbox">Я согласен(а) <a href="#">с политикой обработки персональных данных</a></label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <img src="images/logo.png" alt="Золотой Жук Логотип">
+          <div>
+            <p>Золотой Жук</p>
+            <a href="tel:88002002685" class="footer-phone">8-800-200-26-85</a>
+          </div>
+        </div>
+        <div class="footer-center">
+          <a href="1.html">Каталог</a>
+          <a href="oplataidostavka.html">Оплата и доставка</a>
+          <a href="oklybe.html">О нашем клубе</a>
+          <a href="cont.html">Контакты</a>
+        </div>
+        <div class="footer-right">
+          <a href="#"><img src="images/vk.jpg" alt="VK"></a>
+          <a href="#"><img src="images/yt.jpg" alt="YouTube"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Золотой Жук. Все права защищены.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

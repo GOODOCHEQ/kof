@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница товара</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <div class="top-header">
+        <div class="logo-container">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Золотой Жук Логотип" class="logo">
+            </a>
+            <div class="logo-text">
+                <h1>Золотой Жук</h1>
+                <p>Магазин китайского чая</p>
+            </div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-item">
+                <div class="contact-text">
+                    <a href="tel:88002002685" class="contact-link">8-800-200-26-85</a>
+                    <a href="#" class="sub-link">Заказать звонок</a>
+                </div>
+                <div class="icon-circle">
+                    <img src="images/tel.png" alt="Телефон" class="icon">
+                </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-text">
+                  <span class="cart-total">0 ₽</span>
+                  <a href="cart.html" class="sub-link">Оформить заказ</a>
+              </div>
+              <div class="icon-circle">
+                  <img src="images/cart.png" alt="Корзина" class="icon">
+                  <span class="cart-count">0</span>
+              </div>
+            </div>
+        </div>
+    </div>
+    <nav class="bottom-header">
+        <a href="1.html" class="menu-item">КАТАЛОГ</a>
+        <a href="oplataidostavka.html">ОПЛАТА И ДОСТАВКА</a>
+        <a href="oklybe.html">О НАШЕМ КЛУБЕ</a>
+        <a href="blog.html">БЛОГ</a>
+        <a href="cont.html">КОНТАКТЫ</a>
+    </nav>
+</header>
+
+<main>
+  <div class="product-page">
+      <div class="product-images">
+          <img src="images/1.png" alt="Чай черный шу пуэр Бермуды No3" class="main-image">
+          <div class="thumbnail-images">
+              <img src="images/2.png" alt="Чай черный шу пуэр Бермуды No3 вид 1">
+              <img src="images/3.png" alt="Чай черный шу пуэр Бермуды No3 вид 2">
+          </div>
+      </div>
+      <div class="product-details">
+          <h1>Чай шу пуэр Вечно Молодой</h1>
+          <div class="product-price">1300 ₽</div>
+          <div class="quantity-and-cart">
+              <div class="product-quantity">
+                  <button class="quantity-decrease">-</button>
+                  <input type="number" value="1" min="1">
+                  <button class="quantity-increase">+</button>
+              </div>
+              <button class="add-to-cart">В корзину</button>
+          </div>
+          <div class="delivery-info">
+              <h2>Информация о доставке</h2>
+              <div class="delivery-method">
+                  <strong>Самовывоз</strong><br>
+                  <span>Самовывоз — Бесплатно</span>
+              </div>
+              <div class="delivery-method">
+                  <strong>Курьер</strong><br>
+                  <span>Курьер по Воронежу — Завтра, 200 ₽</span>
+              </div>
+              <div class="delivery-method">
+                  <strong>Прочее</strong><br>
+                  <span>Бесплатная доставка от 3000 — Бесплатно</span>
+              </div>
+              <div class="delivery-method">
+                  <strong>Почта</strong><br>
+                  <span>Почта России — 203 ₽</span>
+              </div>
+          </div>
+      </div>
+  </div>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <img src="images/logo.png" alt="Золотой Жук Логотип">
+            <div>
+                <p>Золотой Жук</p>
+                <a href="tel:88002002685" class="footer-phone">8-800-200-26-85</a>
+            </div>
+        </div>
+        <div class="footer-center">
+            <a href="1.html">Каталог</a>
+            <a href="oplataidostavka.html">Оплата и доставка</a>
+            <a href="oklybe.html">О нашем клубе</a>
+            <a href="cont.html">Контакты</a>
+        </div>
+        <div class="footer-right">
+            <a href="#"><img src="images/vk.jpg" alt="VK"></a>
+            <a href="#"><img src="images/yt.jpg" alt="YouTube"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Золотой Жук. Все права защищены.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
